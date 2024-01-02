@@ -1,18 +1,18 @@
 <h1 align="center">
-  princekumar21.vercel.app
+  princekumar21.netlify.app
 </h1>
 <p align="center">
   My personal website made to showcase my work and share my blog posts. 
 </p>
 <p align="center">
-  Found at <a href="https://princekumar21.vercel.app" target="_blank">princekumar21.vercel.app</a>, built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+  Found at <a href="https://princekumar21.netlify.app" target="_blank">princekumar21.netlify.app</a>, built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/prince-dsd/deploys" target="_blank">
     <img src="https://api.netlify.com/api/v1/badges/e9a59c26-9f13-4c19-b62c-9b6982990106/deploy-status" alt="Netlify Status" />
   </a>
 </p>
-<a href="https://princekumar21.vercel.app" target="_blank">
+<a href="https://princekumar21.netlify.app" target="_blank">
   <img src="https://raw.githubusercontent.com/prince-dsd/personal-website/master/src/assets/images/demo.png" alt="repo demo">
 </a>
 
