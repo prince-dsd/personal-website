@@ -1,12 +1,12 @@
 ---
 sort: 1
 overline: 'Full-Stack Web-App'
-title: 'Bit Network'
+title: 'Developer Network'
 images:
     - image: './image-1.png'
-      alt: 'Bit Network home page'
-github: 'https://github.com/prince-dsd/bitnet'
-external: 'https://bit-net.herokuapp.com'
+      alt: 'Hash Dev home page'
+github: 'https://github.com/prince-dsd/hash-dev'
+external: 'https://hash-dev.onrender.com/'
 tech:
     - React
     - Redux

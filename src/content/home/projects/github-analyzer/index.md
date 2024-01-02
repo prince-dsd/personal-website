@@ -1,12 +1,12 @@
 ---
 sort: 2
 overline: 'Front-End Web-App'
-title: 'GitHub Analyzer'
+title: 'Git Watch'
 images:
     - image: './image-1.png'
-      alt: 'GitHub Analyzer profile analysis for me'
-github: 'https://github.com/prince-dsd/github-analyzer'
-external: 'https://githubanalyzer.onrender.com'
+      alt: 'Git watch profile analysis'
+github: 'https://github.com/prince-dsd/git-watch'
+external: 'https://git-watch.onrender.com/'
 tech:
     - React
     - SCSS
