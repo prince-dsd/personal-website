@@ -1,6 +1,6 @@
 ---
 sort: 4
-overline: 'Modern SSG Web-App'
+overline: 'Modern SSR App'
 title: 'My Personal Website'
 images:
     - image: './image-1.png'
@@ -17,4 +17,4 @@ tech:
 
 My personal site was built using the modern React SSR framework, Gatsby.js.
 
-I took advantage of GraphQL and the many Gatsby plugins to thoroughly optimize the site and implemented a dark mode which involves detecting user theme preferences and updating the CSS before first load.
+Utilised GraphQL API and several Garsby plugins to optimize the site and equipped it with a dark mode which detects the user's theme preference.

@@ -155,7 +155,7 @@ const Footer = () => {
                                 </li>
                             ))}
                     </SocialMediaContainer>
-                    <span>&copy; 2023 Designed & developed by Prince Kumar.</span>
+                    <span>&copy; 2024 Designed & developed by Prince Kumar.</span>
                 </FooterLeftContainer>
                 <FooterRightContainer>
                     <LinksContainer>

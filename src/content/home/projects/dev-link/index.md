@@ -13,10 +13,9 @@ tech:
     - Node.js
     - Express.js
     - MongoDB
-    - AWS S3
     - Styled Components
 ---
 
-A full-stack web-app which allows developers to create a profile, showcase their abilities and quickly search & filter for other developers.
+A full-stack web-application which allows developers to share posts, look up for developers by utilizing the available filters.
 
-I used modern React with Redux & Reselect to efficiently manage global state and especially enjoyed creating a large, secure RESTful API.
+It is built using React with Redux & Reselect to optimally manage global store and keep the application smooth and performant.

@@ -2,22 +2,22 @@
 title: About Me
 avatar: './placeholder.png'
 skills:
-    - React & Redux
+    - Python
     - JavaScript (ES6+)
     - TypeScript
-    - Next.js / Gatsby.js
+    - Django
     - Node.js & Express.js
-    - GraphQL & Apollo
+    - Next.js / Gatsby.js
     - Docker & Kubernetes
     - MongoDB / Firebase
-    - Vue.js
-    - HTML & (S)CSS
-    - Gulp / Webpack
+    - SQL
     - Git & GitHub
+    - Gulp / Webpack
+    - HTML & (S)CSS
 ---
 
 Hello! I'm Prince, a Software Engineer.
 
-I have solid experience in building, deploying and maintaining applications and love the constant learning and problem solving that comes with it. It gives me great satisfaction to develop pixel-perfect products that feel smooth and efficient under the hood.
+I have strong experience in building, deploying and maintaining applications. I always strive to solve problems in most efficient manner and enjoy the learning and problem solving that comes with it. It gives me great satisfaction to develop products that are robust and efficient under the hood.
 
 My toolbox:
