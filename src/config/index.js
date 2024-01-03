@@ -30,7 +30,7 @@ module.exports = {
             url: 'https://www.linkedin.com/in/princkumar21/',
         },
         {
-            name: 'Leetcode',
+            name: 'Discord',
             url: 'https://leetcode.com/me_prince/',
         },
     ],
