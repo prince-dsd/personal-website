@@ -19,7 +19,7 @@ module.exports = {
     socialMedia: [
         {
             name: 'Twitter',
-            url: 'https://twitter.com/princkumar21',
+            url: 'https://twitter.com/Einher1ar',
         },
         {
             name: 'GitHub',
@@ -30,8 +30,8 @@ module.exports = {
             url: 'https://www.linkedin.com/in/princkumar21/',
         },
         {
-            name: 'Discord',
-            url: 'https://leetcode.com/zerosec/',
+            name: 'Leetcode',
+            url: 'https://leetcode.com/me_prince/',
         },
     ],
     navLinks: [
