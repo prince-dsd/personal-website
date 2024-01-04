@@ -52,14 +52,14 @@ export const pageQuery = graphql`
         allMdx(
             limit: 20
             filter: {
-                fileAbsolutePath: { regex: "/content/posts/" }
+               internal:{ contentFilePath: { regex: "/content/posts/" }}
                 frontmatter: { draft: { ne: true }, tags: { in: [$tag] } }
             }
             sort: { fields: [frontmatter___date], order: DESC }
         ) {
             edges {
                 node {
-                    excerpt(pruneLength: 300, truncate: true)
+                    excerpt(pruneLength: 300)
                     fields {
                         slug
                     }

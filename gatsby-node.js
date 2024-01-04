@@ -34,7 +34,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const result = await graphql(`
         {
             postsMdx: allMdx(
-                filter: { fileAbsolutePath: { regex: "/content/posts/" } }
+                filter: {internal: { contentFilePath: { regex: "/content/posts/" } }}
                 sort: { order: DESC, fields: [frontmatter___date] }
                 limit: 1000
             ) {
@@ -52,7 +52,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             }
             tagsGroup: allMdx(
                 filter: {
-                    fileAbsolutePath: { regex: "/content/posts/" }
+                    internal: {contentFilePath: { regex: "/content/posts/" }}
                     frontmatter: { draft: { ne: true } }
                 }
             ) {

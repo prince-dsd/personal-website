@@ -195,7 +195,7 @@ module.exports = {
                       allMdx(
                         limit: 1000,
                         filter: {
-                            fileAbsolutePath: { regex: "/content/posts/" }
+                          internal: { contentFilePath: { regex: "/content/posts/" }}
                             frontmatter: { draft: { ne: true } }
                         }
                         sort: { fields: [frontmatter___date], order: DESC }

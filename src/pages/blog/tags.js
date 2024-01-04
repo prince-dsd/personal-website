@@ -106,7 +106,7 @@ export const pageQuery = graphql`
     {
         tagsMdx: allMdx(
             filter: {
-                fileAbsolutePath: { regex: "/content/posts/" }
+               internal:{ contentFilePath: { regex: "/content/posts/" }}
                 frontmatter: { draft: { ne: true } }
             }
         ) {

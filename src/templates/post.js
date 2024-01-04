@@ -238,7 +238,7 @@ export const pageQuery = graphql`
         recommendedPostsMdx: allMdx(
             limit: 3
             filter: {
-                fileAbsolutePath: { regex: "/content/posts/" }
+                internal:{contentFilePath: { regex: "/content/posts/" }}
                 frontmatter: { draft: { ne: true }, tags: { in: $tags } }
                 id: { ne: $id }
             }
@@ -259,7 +259,7 @@ export const pageQuery = graphql`
         latestPostsMdx: allMdx(
             limit: 3
             filter: {
-                fileAbsolutePath: { regex: "/content/posts/" }
+               internal:{ contentFilePath: { regex: "/content/posts/" }}
                 frontmatter: { draft: { ne: true } }
                 id: { ne: $id }
             }
