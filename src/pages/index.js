@@ -31,6 +31,7 @@ export const pageQuery = graphql`
                 name
                 subtitle
                 buttonText
+                buttonLink
             }
         }
         about: markdownRemark(fileAbsolutePath: { regex: "/content/home/about/" }) {

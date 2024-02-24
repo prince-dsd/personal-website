@@ -131,7 +131,7 @@ const Hero = ({ data }) => {
     const [isWaveAnimated, setIsWaveAnimated] = useState(false);
 
     const { frontmatter } = data;
-    const { title, name, subtitle, buttonText } = frontmatter;
+    const { title, name, subtitle, buttonText, buttonLink } = frontmatter;
 
     const handleWaveAnimation = () => {
         if (!isWaveAnimated) {
@@ -186,7 +186,7 @@ const Hero = ({ data }) => {
                     {subtitle}
                 </Subtitle>
                 <ButtonContainer custom={2} initial="hidden" animate="visible" variants={variants}>
-                    <CustomLink variant="button-primary" to="/#portfolio">
+                    <CustomLink variant="button-primary" target="_blank" to={buttonLink} >
                         {buttonText}
                     </CustomLink>
                 </ButtonContainer>
