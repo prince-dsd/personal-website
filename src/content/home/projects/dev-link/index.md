@@ -5,7 +5,7 @@ title: 'Developer Network'
 images:
     - image: './image-1.png'
       alt: 'Hash Dev home page'
-github: 'https://github.com/prince-dsd/hash-dev'
+github: 'https://github.com/prince-dsd/hashdev-v2'
 external: 'https://hash-dev.onrender.com/'
 tech:
     - React
