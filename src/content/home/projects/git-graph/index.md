@@ -1,12 +1,12 @@
 ---
 sort: 2
 overline: 'Front-End Web-App'
-title: 'Git Watch'
+title: 'Git Graph'
 images:
     - image: './image-1.png'
-      alt: 'Git watch profile analysis'
-github: 'https://github.com/prince-dsd/git-watch'
-external: 'https://git-watch.onrender.com/'
+      alt: 'Git graph profile analysis'
+github: 'https://github.com/prince-dsd/git-graph'
+external: 'https://git-graph-ch49.onrender.com/'
 tech:
     - React
     - SCSS
