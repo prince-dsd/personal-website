@@ -4,14 +4,14 @@ import media from '../media';
 
 const theme = css`
     :root {
-        --color-indigo: #4433ff;
-        --color-indigo-light: #5847ff;
-        --color-indigo-dark: #301feb;
-        --color-indigo-darker: #1C0BD7;
+        --color-teal: #22c55e;
+        --color-teal-light: #22c55e;
+        --color-teal-dark: #22c55e;
+        --color-teal-darker: #22c55e;
         --color-blue-darker: #8ebeeb;
         --color-blue-dark: #aacdee;
         --color-blue: #c5dcf1;
-        --color-blue-light: #0b0b13;
+        --color-blue-light: #ffffff;
         --color-blue-light-alt: #d2e4f6;
         --color-blue-lighter: #e6f0f8;
         --color-green: #64ffda;
@@ -52,10 +52,10 @@ const theme = css`
         --color-grey-light-5: #aaa;
         --color-white: #fff;
 
-        --color-primary: var(--color-indigo);
-        --color-primary-light: var(--color-indigo-light);
-        --color-primary-dark: var(--color-indigo-dark);
-        --color-primary-darker: var(--color-indigo-darker);
+        --color-primary: var(--color-teal);
+        --color-primary-light: var(--color-teal-light);
+        --color-primary-dark: var(--color-teal-dark);
+        --color-primary-darker: var(--color-teal-darker);
         --color-secondary: var(--color-pink);
         --color-tertiary: var(--color-yellow);
         --color-background-primary-1: var(--color-white-1);
@@ -81,7 +81,7 @@ const theme = css`
         --color-newsletter-field-border-active: var(--color-primary);
         --color-border-primary: var(--color-white-5);
         --color-socials: var(--color-text-primary-2);
-        --color-socials-hover: var(--color-indigo);
+        --color-socials-hover: var(--color-teal);
         --color-theme-toggle: var(--color-blue-light);
         --color-theme-toggle-background: var(--color-navy-5);
         --color-scrollbar: var(--color-blue-dark);

@@ -69,6 +69,7 @@ const AvatarLinkContainer = styled(props => <CustomLink {...props} />)`
 const Avatar = styled(Img)`
     position: relative;
     mix-blend-mode: multiply;
+    opacity: 0;
     border-radius: 50%;
     transition: var(--transition);
     box-shadow: var(--box-shadow-primary);
