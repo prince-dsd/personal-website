@@ -186,7 +186,7 @@ const Hero = ({ data }) => {
                     {subtitle}
                 </Subtitle>
                 <ButtonContainer custom={2} initial="hidden" animate="visible" variants={variants}>
-                    <CustomLink variant="button-primary" target="_blank" to={buttonLink} >
+                    <CustomLink variant="button-primary" target="_blank" href={buttonLink} >
                         {buttonText}
                     </CustomLink>
                 </ButtonContainer>
